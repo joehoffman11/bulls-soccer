@@ -1,23 +1,36 @@
-.header {
+.banner {
     display: flex;
     background-color: darkgray;
     border-bottom: 1px solid black;
     align-items: center;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
 }
 
+.banner-logo {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
 
-.header-text {
+.banner-text {
     font-size: 36px;
     font-weight: bold;
 }
 
+.img-scale {
+    width: 60px;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
 .dropbtn {
     background-color:  darkgray;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: 1px solid black;
     cursor: pointer;
+    padding: 0;
+    border : none;
 }
 
 .dropdown {
@@ -43,4 +56,4 @@
 
 .dropdown-content a:hover {background-color: #ddd;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #363636;}
